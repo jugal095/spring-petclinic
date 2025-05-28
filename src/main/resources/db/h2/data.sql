@@ -51,8 +51,8 @@ INSERT INTO visits VALUES (default, 7, '2013-01-01', 'rabies shot');
 INSERT INTO visits VALUES (default, 8, '2013-01-02', 'rabies shot');
 INSERT INTO visits VALUES (default, 8, '2013-01-03', 'neutered');
 INSERT INTO visits VALUES (default, 7, '2013-01-04', 'spayed');
-
+ -- Sample data for pet_type_attributes table
 INSERT INTO pet_type_attributes (pet_type_id, temperament, avg_length, avg_weight, life_expectancy, coat_type) VALUES
-(1, 'Friendly', 24.5, 15.0, 12, 'Short'), -- Cat
-(2, 'Loyal', 30.0, 50.0, 10, 'Medium'), -- Dog
-(3, 'Curious', 10.0, 2.5, 8, 'Feathered'); -- Bird
+(1, 'Friendly', 24.5, 15.0, 12, 'Short'), 
+(2, 'Loyal', 30.0, 50.0, 10, 'Medium'),
+(3, 'Curious', 10.0, 2.5, 8, 'Feathered'); 
