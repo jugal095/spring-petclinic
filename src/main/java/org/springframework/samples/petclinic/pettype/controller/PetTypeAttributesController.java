@@ -16,7 +16,6 @@ import java.util.List;
 @RequestMapping("/api/pet-type-attributes")
 public class PetTypeAttributesController {
 	
-	@Autowired
 	private final PetTypeAttributesService attributesService;
 
 	@Autowired
